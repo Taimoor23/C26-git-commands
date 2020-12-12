@@ -40,6 +40,10 @@ function setup(){
 
 function draw(){
     background(backgroundImg);
+
+    textSize(30);
+    text("Taimoor Bajwa",200,200);
+
     Engine.update(engine);
     console.log(box2.body.position.x);
     console.log(box2.body.position.y);
